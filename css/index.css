@@ -1,0 +1,10 @@
+.tux {
+	width: 20%;
+	height: auto;
+	vertical-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tuxDark {
+	width: 100%;
+}

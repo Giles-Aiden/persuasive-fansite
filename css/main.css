@@ -1,0 +1,21 @@
+@font-face {
+	font-family: syneMono;
+	src: url(../fonts/SyneMono-Regular.ttf);
+}
+
+body {
+	color: black;
+	background-image: url('../images/101.jpg');
+	background-size: 25%;
+	font-family: syneMono;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.dark-theme {
+	color: white;
+	background-color: black;
+	background-image: url('../images/111.jpg');
+}
