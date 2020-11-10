@@ -4,14 +4,56 @@
 }
 
 body {
-	color: black;
-	background-image: url('../images/101.jpg');
-	background-size: 25%;
-	font-family: syneMono;
+  color: black;
+  background-image: url('../images/101.jpg');
+  background-size: 25%;
+  font-family: syneMono;
+  text-align: center;
 }
 
-h1, h2 {
-	text-align: center;
+header {
+  text-align: right;
+  border: 0.5em solid black;
+  border-radius: 0 0 2em 2em;
+  background-color: rgba(79, 32, 130, 0.6);
+  padding: 1em;
+}
+footer ul, header ul {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header ul li {
+  float: left;
+  padding: 0 0.5em;
+  /* This is very cool, im happy with this. set a min value, default value, then max value. */
+  font-size: clamp(0.5em, calc(3vw + 1vh), 2em);
+}
+
+footer {
+  font-size: 2vh;
+}
+
+footer ul li {
+  float: right;
+  padding: 0 0.5em;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: lime;
+}
+
+h1 {font-size: 7vh;}
+h2 {font-size: 4vh;}
+h3 {font-size: 3vh;}
+h4 {font-size: 2vh;}
+p {
+  font-size: 2vh;
 }
 
 .dark-theme {

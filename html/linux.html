@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	
+  <link rel='stylesheet' href='../css/main.css'>
+	<link rel='stylesheet' href='../css/linux.css'>
+
+	<script src='../js/index.js'></script>
+</head>
+<body>
+  <header>
+	  <button onclick='darkThemeLinux()'>Dark Me</button>
+    <ul>
+      <li><a href='../index.html'>Home</a></li>
+      <li><a href='linux.html'>Linux</a></li>
+    </ul>
+  </header>
+  <div id='besideWrap'>
+    <div id='tuxBeside'><img width='40%' src='../images/tux.png'></div>
+    <div id='textBeside'><h3>Here is your friendly neighborhood tux! Our linux mascot, here to help us learn these new commands. </div>
+  </div>
+  <h2>What can I do in Linux?</h2>
+  <p>
+    You can go about linux in a couple of ways. 
+    <br> The first is to just use it like you would a regular operating system! Modern linux is just as simple and intuative as Windows or Mac. With most linux distrobutions (or versions) even including a built in store!
+    <br> The next and much more powerful way to use linux is through the terminal, a box that allows you to type in commands to get an output! While this can be confusing at first it can make you multitudes faster when using your PC.
+  </p>
+  <h2>Lets learn some commands!</h2>
+  <div class='grid'>
+    <div class='item' style='grid-area: 1 / 1'>
+      <h4>cd</h4>
+      <p>This command is used to change your directory.<br> ex) cd Pictures</p>
+    </div>
+    <div class='item' style='grid-area: 1 / 2'>
+      <h4>ls</h4>
+      <p>This command lists all files in your current directory.</p>
+    </div>
+    <div class='item' style='grid-area: 1 / 3'>
+      <h4>mkdir</h4>
+      <p>This command createsd a new diectory. <br>ex) mkdir myFolder</p>
+    </div>
+    <div class='item' style='grid-area: 1 / 4'>
+      <h4>rmdir</h4>
+      <p>Removes a directory</p>
+    </div>
+    <div class='item' style='grid-area: 1 / 5'>
+      <h4>cat</h4>
+      <p>Dumps file's contents into the terminal</p>
+    </div>
+    <div class='item' style='grid-area: 2 / 1'>
+      <h4>cp</h4>
+      <p>Copies a file to another file.<br> ex) cp file1.txt newFile.txt</p>
+    </div>
+    <div class='item' style='grid-area: 2 / 2'>
+      <h4>mv</h4>
+      <p>Similar to copy but deletes original file. Moving the file.</p>
+    </div>
+    <div class='item' style='grid-area: 2 / 3'>
+      <h4>pwd</h4>
+      <p>Prints out the directory you are currently in.</p>
+    </div>
+    <div class='item' style='grid-area: 2 / 4'>
+      <h4>rm</h4>
+      <p>Removes a file (but wont remove folders!)</p>
+    </div>
+    <div class='item' style='grid-area: 2 / 5'>
+      <h4>touch</h4>
+      <p>Creates a new empty file <br> ex) touch newFile.new</p>
+    </div>
+    <div class='item' style='grid-area: 3 / 1'>
+      <h4>locate</h4>
+      <p>This will locate a file on the system</p>
+    </div>
+    <div class='item' style='grid-area: 3 / 2'>
+      <h4>find</h4>
+      <p>Works just like locate but searches for folders too!</p>
+    </div>
+    <div class='item' style='grid-area: 3 / 3'>
+      <h4>grep</h4>
+      <p>Trims output to only show specific text <br> ex) grep hello file.txt<br>(finds all instances of hello in file.txt)</p>
+    </div>
+    <div class='item' style='grid-area: 3 / 4'>
+      <h4>sudo</h4>
+      <p>Runs a program in root, aka administrator.<br>ex) sudo cd /root <br>(only admins can go here!)</p>
+    </div>
+    <div class='item' style='grid-area: 3 / 5'>
+      <h4>du</h4>
+      <p>This tells you how much space a file takes up. <strong>D</strong>isk <strong>U</strong>sage</p>
+    </div>
+  </div>
+  <footer>
+    <ul>
+      <li>&copy;2020 Aiden Giles</li>
+      <li><a href='https://www.linuxfoundation.org/'>TheLinuxFoundation</a></li>
+    <ul>
+  <footer>
+</body>
+</html>

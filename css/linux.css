@@ -1,0 +1,29 @@
+#besideWrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+#tuxBeside {
+  width: 50%;
+  float: left;
+}
+#tuxBeside img{
+  float: right;
+}
+
+#textBeside{
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.item {
+  border: 1em double rgb(69, 32, 130);
+  border-radius: 0.5em;
+  background-color: rgb(79, 32, 130, 0.6)
+}
+.term {
+  color: lime;
+}
